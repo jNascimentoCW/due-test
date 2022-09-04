@@ -213,9 +213,6 @@ p {
     .white-section h2{
         font-size: 1.5rem;
     }
-    .white-section-col{
-        width: 100%;
-    }
 }
 
 @media (max-width: 670px) {
@@ -452,6 +449,28 @@ p {
     }
 }
 
+/*Whatsapp botao*/
+.botao-wpp{
+    width: 100%;
+}
+
+.botao-wpp img{
+    border-radius: 1rem;
+    position: fixed;
+    max-width: 5%;
+    bottom: 3%;
+    right: 2%;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .botao-wpp img{
+        border-radius: 7px;
+        min-width: 3rem;
+    }
+}
+
+/*Footer*/
 .footer{
     position: absolute;
     display: flex;
