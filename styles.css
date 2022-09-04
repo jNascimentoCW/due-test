@@ -430,7 +430,7 @@ p {
     .wrapper{
         display: flex;
         flex-direction: column;
-        padding: 27% 2% 20%;
+        padding: 10% 2%;
     }
 
     .contact{
