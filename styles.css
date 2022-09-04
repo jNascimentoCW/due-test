@@ -467,6 +467,7 @@ p {
     .botao-wpp img{
         border-radius: 7px;
         min-width: 3rem;
+        right: 5%;
     }
 }
 
