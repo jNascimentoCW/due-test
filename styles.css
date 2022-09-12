@@ -141,6 +141,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50% 50% 50% 0;
 }
 
 .right-quem-somos{
@@ -159,9 +160,8 @@ p {
 
 .blue-section-img{
     width: 40vw;
-    border-radius: 20px;
     position: relative;
-    box-shadow: 5px 5px 5px #296BA3;
+    object-fit: contain;
 }
 
 @media (max-width: 680px){
@@ -209,9 +209,13 @@ p {
     width: 20%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 680px){
     .white-section h2{
         font-size: 1.5rem;
+    }
+
+    .white-section-col{
+        width: 100%;
     }
 }
 
@@ -234,12 +238,11 @@ p {
 .blue-container{
     display: flex;
     justify-content: space-between;
+    border: 50%;
 }
 
 .atuacao-img{
     width: 35vw;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #296BA3;
 }
 
 .space{
@@ -279,8 +282,7 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 0;
-    padding: 4%;
+    margin: 4% 0;
     text-align: center;
     width: 100%;
     height: 12rem;
@@ -292,7 +294,7 @@ p {
 
 .servicos{
     position: relative;
-    padding: 10% 0;
+    padding: 2% 0;
 }
 
 .servicos p{
@@ -331,6 +333,13 @@ p {
     .servicos img{
         width: 20%;
     }
+}
+
+@media (min-width: 1800px) {
+    .white-section-servicos{
+        margin: 10rem 0;
+    }
+
 }
 
 /* Comments */
@@ -479,11 +488,6 @@ p {
     align-items: center;
     color: var(--white-100);
     width: 100%;
+    height: 4%;
     background-color: var(--blue-900);
-}
-
-.footer p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
